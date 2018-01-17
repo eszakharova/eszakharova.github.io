@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112552616-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112552616-1');
+    </script>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Elena Zakharova</title>
@@ -16,13 +25,13 @@
             <img src="img/ez_avatar_crop.jpg" class="avatar">
     <p ><i>
       Python developer, linguist.</i></p>
-            <ul>
+            <ul class="top_menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li>Contacts <br>
+                <li><div class="contacts-header">Contacts</div>
                     <p class="contacts">
                         <span class="glyphicon glyphicon-earphone"
                                            style="color:#cecece;font-size: 0.8em">
@@ -30,7 +39,7 @@
                         </span>
                         <br>
                     <span class="glyphicon glyphicon-envelope" style="color:#cecece; font-size: 0.8em">
-                        <a href='mailto:1583253@gmail.com' target='_blank'>1583253@gmail.com
+                        <a href='mailto:1583253@gmail.com' target='_blank' style="padding-left: 0">1583253@gmail.com
                         </a>
                     </span> <br>
                         <a href="https://github.com/eszakharova" target="_blank" class="fa fa-github"></a>
