@@ -198,6 +198,11 @@ em{
     padding-left: 0.2em;
     padding-right: 0.2em;
 }
+
+.sidebar li a.active {
+    border: 1px solid;
+}
+
 /*!* Position and style the close button (top right corner) *!*/
 /*.sidebar .closebtn {*/
 	/*position: absolute;*/
