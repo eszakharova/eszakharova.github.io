@@ -8,7 +8,7 @@ body {
     height: auto; /*if more info comes on the page, it will stretch down*/
     width: auto;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #1c1d12;
+	color: #000000;
 	line-height: 1.4;
 	text-align: justify;
 }
@@ -98,7 +98,7 @@ em{
 }
 
 .darker{
-	background-color: #e8e8e8;
+	background-color: #efefef;
 }
 
 .main p {
@@ -130,7 +130,7 @@ em{
 .main .glyphicon{
     font-size: 1.1em;
     padding: 0.02em 0 0 0.8em;
-    color:#1c1d12;
+    color: #171717;
 }
 /*----Side navigation bar----------------------------------------------- */
 
@@ -141,7 +141,7 @@ em{
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
 	left: 0;
-	background-color: #1c1d12;
+	background-color: #171717;
 	overflow-x: hidden; /* Disable horizontal scroll */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
@@ -150,7 +150,7 @@ em{
 .sidebar h1 {
     font-size: 2.3em;
     text-align: center;
-    text-shadow: 0.04em 0.04em 0.1em #77755c;
+    /*text-shadow: 0.04em 0.04em 0.1em #77755c;*/
     color: #e9e9e9;
     margin-top: 0;
     margin-bottom: 0;
